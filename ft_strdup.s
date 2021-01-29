@@ -21,8 +21,7 @@ _ft_strdup:
 	ret
 
 _err:
-    call ___error
-    mov rdi, 12
-    mov [rax], rdi
-    mov rax, 0
+    call 	___error
+    mov 	qword[rax], 12
+    mov 	rax, 0
     ret

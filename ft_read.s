@@ -11,7 +11,6 @@ _ft_read:
 _err:
 	push	rax
 	call	___error
-	pop		rdi
-	mov		[rax], rdi
+	pop 	qword [rax]
 	mov		rax, -1
 	ret
