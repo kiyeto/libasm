@@ -6,7 +6,7 @@
 /*   By: abenouda <abenouda@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/01/22 17:11:37 by abenouda          #+#    #+#             */
-/*   Updated: 2021/01/26 19:23:00 by abenouda         ###   ########.fr       */
+/*   Updated: 2021/02/01 18:58:14 by abenouda         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,7 +22,6 @@
 # define GREEN   "\033[32m"
 # define BUFFER_SIZE 512
 
-void		hello(void);
 size_t		ft_strlen(const char *s);
 char		*ft_strcpy(char *dest, const char *src);
 int			ft_strcmp(const char *s1, const char *s2);
