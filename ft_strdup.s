@@ -4,7 +4,6 @@ section .text
 		extern _malloc
 		extern _ft_strlen
 		extern _ft_strcpy
-		extern ___error
 
 _ft_strdup:
 	call	_ft_strlen
@@ -21,7 +20,5 @@ _ft_strdup:
 	ret
 
 _err:
-    call 	___error
-    mov 	qword[rax], 12
     mov 	rax, 0
     ret
